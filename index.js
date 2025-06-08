@@ -1,14 +1,3 @@
-//function countOccurrences(array, searchElement) {
-// array.reduce((accumulator, current) => {
-// const occurrence = current === searchElement ? 1 : 0;
-//return accumulator + occurrence;
-// }, 0);
-//}
-
-const testArray = [1, 2, 3, 4, 5, 4, 4, 4];
-//const count = countOccurrences(testArray, 4);
-//console.log(count);
-
 let playMode = prompt("Please select: 1-Single, 3-BO3");
 let playerWinTime = 0;
 let machineWinTime = 0;
